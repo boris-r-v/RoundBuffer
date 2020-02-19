@@ -1,15 +1,19 @@
 Round Buffer
 ======
 
-For testing use boost framework
+Self implementation circle buffer, based at std::array
+Tested with boost framework
 
 Compiling
 ---------
-mkdir build
-cd build
-cmake .. && make
+
+    mkdir build
+    cd build
+    cmake .. && make
+
 
 Running test
 --------
-ctest -V
+
+    ctest -V
 
